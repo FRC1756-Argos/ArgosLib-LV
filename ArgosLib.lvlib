@@ -4,6 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Controls" Type="Folder">
+		<Item Name="TypeDefs" Type="Folder">
+			<Item Name="XBoxAxes_Type.ctl" Type="VI" URL="../Controls/TypeDefs/XBoxAxes_Type.ctl"/>
+			<Item Name="XBoxButtons_Type.ctl" Type="VI" URL="../Controls/TypeDefs/XBoxButtons_Type.ctl"/>
+		</Item>
 		<Item Name="XBOX_Joystick_Name.vi" Type="VI" URL="../Controls/XBOX_Joystick_Name.vi"/>
 	</Item>
 	<Item Name="Drive" Type="Folder">
@@ -35,6 +39,10 @@
 			</Item>
 			<Item Name="Arbitor.vi" Type="VI" URL="../Miscellaneous/Arbitor/Arbitor.vi"/>
 		</Item>
+		<Item Name="TypeDefs" Type="Folder">
+			<Item Name="MotorLimitPositions_Type.ctl" Type="VI" URL="../Miscellaneous/TypeDefs/MotorLimitPositions_Type.ctl"/>
+			<Item Name="ReachTargetState_Type.ctl" Type="VI" URL="../Miscellaneous/TypeDefs/ReachTargetState_Type.ctl"/>
+		</Item>
 		<Item Name="Assisted Turning.vi" Type="VI" URL="../Miscellaneous/Assisted Turning.vi"/>
 		<Item Name="ChangeTimer.vi" Type="VI" URL="../Miscellaneous/ChangeTimer.vi"/>
 		<Item Name="DBReadStringAsNumber.vi" Type="VI" URL="../Miscellaneous/DBReadStringAsNumber.vi"/>
@@ -63,6 +71,9 @@
 		<Item Name="Filters" Type="Folder">
 			<Item Name="95-5 Filter.vi" Type="VI" URL="../Signal Processing/Filters/95-5 Filter.vi"/>
 			<Item Name="Median Filter.vi" Type="VI" URL="../Signal Processing/Filters/Median Filter.vi"/>
+		</Item>
+		<Item Name="TypeDefs" Type="Folder">
+			<Item Name="EdgeDetector_Type.ctl" Type="VI" URL="../Signal Processing/TypeDefs/EdgeDetector_Type.ctl"/>
 		</Item>
 		<Item Name="Debounce.vi" Type="VI" URL="../Signal Processing/Debounce.vi"/>
 		<Item Name="EdgeDetector.vi" Type="VI" URL="../Signal Processing/EdgeDetector.vi"/>
