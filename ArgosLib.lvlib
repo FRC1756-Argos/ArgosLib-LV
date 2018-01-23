@@ -40,6 +40,8 @@
 			<Item Name="Arbitor.vi" Type="VI" URL="../Miscellaneous/Arbitor/Arbitor.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
+			<Item Name="ArgoDriveJoystickMap.ctl" Type="VI" URL="../Miscellaneous/TypeDefs/ArgoDriveJoystickMap.ctl"/>
+			<Item Name="LookUpTableParameters.ctl" Type="VI" URL="../Miscellaneous/TypeDefs/LookUpTableParameters.ctl"/>
 			<Item Name="MotorLimitPositions_Type.ctl" Type="VI" URL="../Miscellaneous/TypeDefs/MotorLimitPositions_Type.ctl"/>
 			<Item Name="ReachTargetState_Type.ctl" Type="VI" URL="../Miscellaneous/TypeDefs/ReachTargetState_Type.ctl"/>
 		</Item>
