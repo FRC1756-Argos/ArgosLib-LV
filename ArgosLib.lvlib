@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="17008000">
-	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;7R=2MR%!81N=?"5Q&lt;/07RB7W!,&lt;'&amp;&lt;9+K1,7Q,&lt;)%N&lt;!NMA3X)DW?-RJ(JQ"I\%%Z,(@`BA#==ZB3RN;]28_,V7@PWW`:R`&gt;HV*SU_WE@\N_XF[3:^^TX\+2YP)D7K6;G-RV3P)R`ZS%=_]J'XP/5N&lt;XH,7V\SEJ?]Z#5P?=J4HP+5JTTFWS%0?=B$DD1G(R/.1==!IT.+D)`B':\B'2Z@9XC':XC':XBUC?%:HO%:HO&amp;R7QT0]!T0]!S0I4&lt;*&lt;)?=:XA-(]X40-X40-VDSGC?"GC4N9(&lt;)"D2,L;4ZGG?ZH%;T&gt;-]T&gt;-]T?.S.%`T.%`T.)^&lt;NF8J4@-YZ$S'C?)JHO)JHO)R&gt;"20]220]230[;*YCK=ASI2F=)1I.Z5/Z5PR&amp;)^@54T&amp;5TT&amp;5TQO&lt;5_INJ6Z;"[(H#&gt;ZEC&gt;ZEC&gt;Z$"(*ETT*ETT*9^B)HO2*HO2*(F.&amp;]C20]C2)GN4UE1:,.[:/+5A?0^NOS?UJ^3&lt;*\9B9GT@7JISVW7*NIFC&lt;)^:$D`5Q9TWE7)M@;V&amp;D,6;M29DVR]6#R],%GC47T9_/=@&gt;Z5V&gt;V57&gt;V5E&gt;V5(OV?^T[FTP?\`?YX7ZRP6\D=LH%_8S/U_E5R_-R$I&gt;$\0@\W/VW&lt;[_"\Y[X&amp;],0^^+,]T_J&gt;`J@_B_]'_.T`$KO.@I"XC-_N!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
+<Library LVVersion="18008000">
+	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;7R=2MR%!81N=?"5Q&lt;/07RB7W!,&lt;'&amp;&lt;9+K1,7Q,&lt;)%N&lt;!NMA3X)DW?-RJ(JQ"I\%%Z,(@`BA#==ZB3RN;]28_,V7@PWW`:R`&gt;HV*SU_WE@\N_XF[3:^^TX\+2YP)D7K6;G-RV3P)R`ZS%=_]J'XP/5N&lt;XH,7V\SEJ?]Z#5P?=J4HP+5JTTFWS%0?=B$DD1G(R/.1==!IT.+D)`B':\B'2Z@9XC':XC':XBUC?%:HO%:HO&amp;R7QT0]!T0]!S0I4&lt;*&lt;)?=:XA-(]X40-X40-VDSGC?"GC4N9(&lt;)"D2,L;4ZGG?ZH%;T&gt;-]T&gt;-]T?.S.%`T.%`T.)^&lt;NF8J4@-YZ$S'C?)JHO)JHO)R&gt;"20]220]230[;*YCK=ASI2F=)1I.Z5/Z5PR&amp;)^@54T&amp;5TT&amp;5TQO&lt;5_INJ6Z;"[(H#&gt;ZEC&gt;ZEC&gt;Z$"(*ETT*ETT*9^B)HO2*HO2*(F.&amp;]C20]C2)GN4UE1:,.[:/+5A?0^NOS?UJ^3&lt;*\9B9GT@7JISVW7*NIFC&lt;)^:$D`5Q9TWE7)M@;V&amp;D,6;M29DVR]6#R],%GC47T9_/=@&gt;Z5V&gt;V57&gt;V5E&gt;V5(OV?^T[FTP?\`?YX7ZRP6\D=LH%_8S/U_E5R_-R$I&gt;$\0@\W/VW&lt;[_"\Y[X&amp;],0^^+,]T_J&gt;`J@_B_]'_.T`$KO.@I"XC-_N!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Config" Type="Folder">
 		<Item Name="ConfigComponents" Type="Folder">
@@ -51,6 +51,14 @@
 		<Item Name="Shifters.vi" Type="VI" URL="../Drive/Shifters.vi"/>
 		<Item Name="Turning_Power_Mode.vi" Type="VI" URL="../Drive/Turning_Power_Mode.vi"/>
 	</Item>
+	<Item Name="IO" Type="Folder">
+		<Item Name="DIOLED" Type="Folder">
+			<Item Name="TypeDefs" Type="Folder">
+				<Item Name="DIOLEDMode.ctl" Type="VI" URL="../IO/DIOLED/TypeDefs/DIOLEDMode.ctl"/>
+			</Item>
+			<Item Name="DIOLEDUpdate.vi" Type="VI" URL="../IO/DIOLED/DIOLEDUpdate.vi"/>
+		</Item>
+	</Item>
 	<Item Name="Math" Type="Folder">
 		<Item Name="DeltaAngle_Degrees.vi" Type="VI" URL="../Math/DeltaAngle_Degrees.vi"/>
 		<Item Name="DotProduct.vi" Type="VI" URL="../Math/DotProduct.vi"/>
@@ -98,6 +106,26 @@
 		<Item Name="Motor_Limit.vi" Type="VI" URL="../Miscellaneous/Motor_Limit.vi"/>
 		<Item Name="Reach_Target.vi" Type="VI" URL="../Miscellaneous/Reach_Target.vi"/>
 		<Item Name="time_delta.vi" Type="VI" URL="../Miscellaneous/time_delta.vi"/>
+	</Item>
+	<Item Name="MotionProfiling" Type="Folder">
+		<Item Name="MotionPorfileGeneratorSubVIs" Type="Folder">
+			<Item Name="MotionProfileGeneratorFilter1Sum.vi" Type="VI" URL="../MotionProfiling/MotionPorfileGeneratorSubVIs/MotionProfileGeneratorFilter1Sum.vi"/>
+			<Item Name="MotionProfileGeneratorFilter2Sum.vi" Type="VI" URL="../MotionProfiling/MotionPorfileGeneratorSubVIs/MotionProfileGeneratorFilter2Sum.vi"/>
+			<Item Name="MotionProfileGeneratorPosition.vi" Type="VI" URL="../MotionProfiling/MotionPorfileGeneratorSubVIs/MotionProfileGeneratorPosition.vi"/>
+			<Item Name="MotionProfileGeneratorVelocity.vi" Type="VI" URL="../MotionProfiling/MotionPorfileGeneratorSubVIs/MotionProfileGeneratorVelocity.vi"/>
+			<Item Name="MotionProfileGeneratorZeroVelocityPoint.vi" Type="VI" URL="../MotionProfiling/MotionPorfileGeneratorSubVIs/MotionProfileGeneratorZeroVelocityPoint.vi"/>
+		</Item>
+		<Item Name="TestSupport" Type="Folder">
+			<Item Name="PlotMotionProfile.vi" Type="VI" URL="../MotionProfiling/TestSupport/PlotMotionProfile.vi"/>
+		</Item>
+		<Item Name="TypeDefs" Type="Folder">
+			<Item Name="MotionProfileGeneratorParams.ctl" Type="VI" URL="../MotionProfiling/TypeDefs/MotionProfileGeneratorParams.ctl"/>
+			<Item Name="TrajectoryPoint.ctl" Type="VI" URL="../MotionProfiling/TypeDefs/TrajectoryPoint.ctl"/>
+		</Item>
+		<Item Name="MotionProfileGenerator.vi" Type="VI" URL="../MotionProfiling/MotionProfileGenerator.vi"/>
+		<Item Name="MotionProfileGenerator2.vi" Type="VI" URL="../MotionProfiling/MotionProfileGenerator2.vi"/>
+		<Item Name="MotionProfileTest.vi" Type="VI" URL="../MotionProfiling/MotionProfileTest.vi"/>
+		<Item Name="MotionProfileWriter.vi" Type="VI" URL="../MotionProfiling/MotionProfileWriter.vi"/>
 	</Item>
 	<Item Name="Path Planning" Type="Folder">
 		<Item Name="TestSupport" Type="Folder">
