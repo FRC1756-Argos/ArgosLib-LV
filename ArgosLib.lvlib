@@ -29,18 +29,18 @@
 	</Item>
 	<Item Name="Drive" Type="Folder">
 		<Item Name="MotorControl" Type="Folder">
-			<Item Name="SRXConfig" Type="Folder">
-				<Item Name="SRXConfigBrakeSingle.vi" Type="VI" URL="../Drive/MotorControl/SRXConfig/SRXConfigBrakeSingle.vi"/>
-				<Item Name="SRXConfigCurrentLimitSingle.vi" Type="VI" URL="../Drive/MotorControl/SRXConfig/SRXConfigCurrentLimitSingle.vi"/>
-				<Item Name="SRXConfigInvertSingle.vi" Type="VI" URL="../Drive/MotorControl/SRXConfig/SRXConfigInvertSingle.vi"/>
-				<Item Name="SRXConfigLimitSwitchSingle.vi" Type="VI" URL="../Drive/MotorControl/SRXConfig/SRXConfigLimitSwitchSingle.vi"/>
-				<Item Name="SRXConfigVoltageCompensationSingle.vi" Type="VI" URL="../Drive/MotorControl/SRXConfig/SRXConfigVoltageCompensationSingle.vi"/>
+			<Item Name="MCConfig" Type="Folder">
+				<Item Name="MCConfigBrakeSingle.vi" Type="VI" URL="../Drive/MotorControl/MCConfig/MCConfigBrakeSingle.vi"/>
+				<Item Name="MCConfigCurrentLimitSingle.vi" Type="VI" URL="../Drive/MotorControl/MCConfig/MCConfigCurrentLimitSingle.vi"/>
+				<Item Name="MCConfigInvertSingle.vi" Type="VI" URL="../Drive/MotorControl/MCConfig/MCConfigInvertSingle.vi"/>
+				<Item Name="MCConfigLimitSwitchSingle.vi" Type="VI" URL="../Drive/MotorControl/MCConfig/MCConfigLimitSwitchSingle.vi"/>
+				<Item Name="MCConfigVoltageCompensationSingle.vi" Type="VI" URL="../Drive/MotorControl/MCConfig/MCConfigVoltageCompensationSingle.vi"/>
+				<Item Name="MotorControllerFollow.vi" Type="VI" URL="../Drive/MotorControl/MCConfig/MotorControllerFollow.vi"/>
 			</Item>
 			<Item Name="TypeDefs" Type="Folder">
 				<Item Name="RobotDriveMotorSelectorEnum.ctl" Type="VI" URL="../Drive/MotorControl/TypeDefs/RobotDriveMotorSelectorEnum.ctl"/>
 			</Item>
 			<Item Name="MotorControllerDevRefGet.vi" Type="VI" URL="../Drive/MotorControl/MotorControllerDevRefGet.vi"/>
-			<Item Name="MotorControllerFollow.vi" Type="VI" URL="../Drive/MotorControl/MotorControllerFollow.vi"/>
 			<Item Name="MotorControllerOpen.vi" Type="VI" URL="../Drive/MotorControl/MotorControllerOpen.vi"/>
 			<Item Name="MotorSetInvalidHandler.vi" Type="VI" URL="../Drive/MotorControl/MotorSetInvalidHandler.vi"/>
 			<Item Name="RobotDriveMotors.vi" Type="VI" URL="../Drive/MotorControl/RobotDriveMotors.vi"/>
