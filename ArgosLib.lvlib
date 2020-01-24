@@ -7,25 +7,25 @@
 		<Item Name="ConfigComponents" Type="Folder">
 			<Item Name="TypeDefs" Type="Folder">
 				<Item Name="Config_AnalogSensor.ctl" Type="VI" URL="../Config/ConfigComponents/TypeDefs/Config_AnalogSensor.ctl"/>
-				<Item Name="Config_DigitalIO.ctl" Type="VI" URL="../Config/ConfigComponents/TypeDefs/Config_DigitalIO.ctl"/>
-				<Item Name="Config_DoubleSolenoid.ctl" Type="VI" URL="../Config/ConfigComponents/TypeDefs/Config_DoubleSolenoid.ctl"/>
-				<Item Name="Config_IMU.ctl" Type="VI" URL="../Config/ConfigComponents/TypeDefs/Config_IMU.ctl"/>
+				<Item Name="Config_DigitalIO.ctl" Type="VI" URL="../../../2018-Robot/ArgosLib/Config/ConfigComponents/TypeDefs/Config_DigitalIO.ctl"/>
+				<Item Name="Config_DoubleSolenoid.ctl" Type="VI" URL="../../../2018-Robot/ArgosLib/Config/ConfigComponents/TypeDefs/Config_DoubleSolenoid.ctl"/>
+				<Item Name="Config_IMU.ctl" Type="VI" URL="../../../2018-Robot/ArgosLib/Config/ConfigComponents/TypeDefs/Config_IMU.ctl"/>
 				<Item Name="Config_MotionMagicParams.ctl" Type="VI" URL="../Config/ConfigComponents/TypeDefs/Config_MotionMagicParams.ctl"/>
-				<Item Name="Config_Motor.ctl" Type="VI" URL="../Config/ConfigComponents/TypeDefs/Config_Motor.ctl"/>
-				<Item Name="Config_MotorCtrlType.ctl" Type="VI" URL="../Config/ConfigComponents/TypeDefs/Config_MotorCtrlType.ctl"/>
-				<Item Name="Config_PIDParams.ctl" Type="VI" URL="../Config/ConfigComponents/TypeDefs/Config_PIDParams.ctl"/>
-				<Item Name="Config_SerialPort.ctl" Type="VI" URL="../Config/ConfigComponents/TypeDefs/Config_SerialPort.ctl"/>
+				<Item Name="Config_Motor.ctl" Type="VI" URL="../../../2018-Robot/ArgosLib/Config/ConfigComponents/TypeDefs/Config_Motor.ctl"/>
+				<Item Name="Config_MotorCtrlType.ctl" Type="VI" URL="../../../2018-Robot/ArgosLib/Config/ConfigComponents/TypeDefs/Config_MotorCtrlType.ctl"/>
+				<Item Name="Config_PIDParams.ctl" Type="VI" URL="../../../2018-Robot/ArgosLib/Config/ConfigComponents/TypeDefs/Config_PIDParams.ctl"/>
+				<Item Name="Config_SerialPort.ctl" Type="VI" URL="../../../2018-Robot/ArgosLib/Config/ConfigComponents/TypeDefs/Config_SerialPort.ctl"/>
 				<Item Name="Config_SingleSolenoid.ctl" Type="VI" URL="../Config/ConfigComponents/TypeDefs/Config_SingleSolenoid.ctl"/>
 			</Item>
 		</Item>
 	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Item Name="TypeDefs" Type="Folder">
-			<Item Name="XBoxAxes_Type.ctl" Type="VI" URL="../Controls/TypeDefs/XBoxAxes_Type.ctl"/>
-			<Item Name="XBoxButtons_Type.ctl" Type="VI" URL="../Controls/TypeDefs/XBoxButtons_Type.ctl"/>
+			<Item Name="XBoxAxes_Type.ctl" Type="VI" URL="../../../2018-Robot/ArgosLib/Controls/TypeDefs/XBoxAxes_Type.ctl"/>
+			<Item Name="XBoxButtons_Type.ctl" Type="VI" URL="../../../2018-Robot/ArgosLib/Controls/TypeDefs/XBoxButtons_Type.ctl"/>
 		</Item>
-		<Item Name="Swap_Joysticks.vi" Type="VI" URL="../Controls/Swap_Joysticks.vi"/>
-		<Item Name="XBOX_Joystick_Name.vi" Type="VI" URL="../Controls/XBOX_Joystick_Name.vi"/>
+		<Item Name="Swap_Joysticks.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Controls/Swap_Joysticks.vi"/>
+		<Item Name="XBOX_Joystick_Name.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Controls/XBOX_Joystick_Name.vi"/>
 	</Item>
 	<Item Name="Drive" Type="Folder">
 		<Item Name="MotorControl" Type="Folder">
@@ -33,30 +33,30 @@
 				<Item Name="SRXConfigBrakeSingle.vi" Type="VI" URL="../Drive/MotorControl/SRXConfig/SRXConfigBrakeSingle.vi"/>
 				<Item Name="SRXConfigCurrentLimitSingle.vi" Type="VI" URL="../Drive/MotorControl/SRXConfig/SRXConfigCurrentLimitSingle.vi"/>
 				<Item Name="SRXConfigInvertSingle.vi" Type="VI" URL="../Drive/MotorControl/SRXConfig/SRXConfigInvertSingle.vi"/>
-				<Item Name="SRXConfigLimitSwitchSingle.vi" Type="VI" URL="../Drive/MotorControl/SRXConfig/SRXConfigLimitSwitchSingle.vi"/>
-				<Item Name="SRXConfigVoltageCompensationSingle.vi" Type="VI" URL="../Drive/MotorControl/SRXConfig/SRXConfigVoltageCompensationSingle.vi"/>
+				<Item Name="SRXConfigLimitSwitchSingle.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Drive/MotorControl/SRXConfig/SRXConfigLimitSwitchSingle.vi"/>
+				<Item Name="SRXConfigVoltageCompensationSingle.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Drive/MotorControl/SRXConfig/SRXConfigVoltageCompensationSingle.vi"/>
 			</Item>
 			<Item Name="TypeDefs" Type="Folder">
-				<Item Name="RobotDriveMotorSelectorEnum.ctl" Type="VI" URL="../Drive/MotorControl/TypeDefs/RobotDriveMotorSelectorEnum.ctl"/>
+				<Item Name="RobotDriveMotorSelectorEnum.ctl" Type="VI" URL="../../../2018-Robot/ArgosLib/Drive/MotorControl/TypeDefs/RobotDriveMotorSelectorEnum.ctl"/>
 			</Item>
 			<Item Name="MotorControllerDevRefGet.vi" Type="VI" URL="../Drive/MotorControl/MotorControllerDevRefGet.vi"/>
 			<Item Name="MotorControllerFollow.vi" Type="VI" URL="../Drive/MotorControl/MotorControllerFollow.vi"/>
-			<Item Name="MotorControllerOpen.vi" Type="VI" URL="../Drive/MotorControl/MotorControllerOpen.vi"/>
-			<Item Name="MotorSetInvalidHandler.vi" Type="VI" URL="../Drive/MotorControl/MotorSetInvalidHandler.vi"/>
+			<Item Name="MotorControllerOpen.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Drive/MotorControl/MotorControllerOpen.vi"/>
+			<Item Name="MotorSetInvalidHandler.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Drive/MotorControl/MotorSetInvalidHandler.vi"/>
 			<Item Name="RobotDriveMotors.vi" Type="VI" URL="../Drive/MotorControl/RobotDriveMotors.vi"/>
 			<Item Name="RobotDriveOpen6Motor.vi" Type="VI" URL="../Drive/MotorControl/RobotDriveOpen6Motor.vi"/>
-			<Item Name="RobotDriveOpen6MotorWithTalonSR.vi" Type="VI" URL="../Drive/MotorControl/RobotDriveOpen6MotorWithTalonSR.vi"/>
-			<Item Name="RobotDriveOpen6MotorWithTalonSRX.vi" Type="VI" URL="../Drive/MotorControl/RobotDriveOpen6MotorWithTalonSRX.vi"/>
+			<Item Name="RobotDriveOpen6MotorWithTalonSR.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Drive/MotorControl/RobotDriveOpen6MotorWithTalonSR.vi"/>
+			<Item Name="RobotDriveOpen6MotorWithTalonSRX.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Drive/MotorControl/RobotDriveOpen6MotorWithTalonSRX.vi"/>
 			<Item Name="RobotDriveOpen6MotorWithVenom.vi" Type="VI" URL="../Drive/MotorControl/RobotDriveOpen6MotorWithVenom.vi"/>
 			<Item Name="WPI_RobotDriveGetMotorControlReference_6Motor.vi" Type="VI" URL="../Drive/MotorControl/WPI_RobotDriveGetMotorControlReference_6Motor.vi"/>
 		</Item>
-		<Item Name="ArcadeDrive.vi" Type="VI" URL="../Drive/ArcadeDrive.vi"/>
-		<Item Name="Argo_Drive.vi" Type="VI" URL="../Drive/Argo_Drive.vi"/>
-		<Item Name="Auto_PID_Drive.vi" Type="VI" URL="../Drive/Auto_PID_Drive.vi"/>
+		<Item Name="ArcadeDrive.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Drive/ArcadeDrive.vi"/>
+		<Item Name="Argo_Drive.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Drive/Argo_Drive.vi"/>
+		<Item Name="Auto_PID_Drive.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Drive/Auto_PID_Drive.vi"/>
 		<Item Name="Hypotenuse_Control.vi" Type="VI" URL="../Drive/Hypotenuse_Control.vi"/>
-		<Item Name="Saturation_Powers.vi" Type="VI" URL="../Drive/Saturation_Powers.vi"/>
+		<Item Name="Saturation_Powers.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Drive/Saturation_Powers.vi"/>
 		<Item Name="Shifters.vi" Type="VI" URL="../Drive/Shifters.vi"/>
-		<Item Name="Turning_Power_Mode.vi" Type="VI" URL="../Drive/Turning_Power_Mode.vi"/>
+		<Item Name="Turning_Power_Mode.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Drive/Turning_Power_Mode.vi"/>
 	</Item>
 	<Item Name="IO" Type="Folder">
 		<Item Name="DIOLED" Type="Folder">
@@ -67,16 +67,16 @@
 		</Item>
 	</Item>
 	<Item Name="Math" Type="Folder">
-		<Item Name="DeltaAngle_Degrees.vi" Type="VI" URL="../Math/DeltaAngle_Degrees.vi"/>
-		<Item Name="DotProduct.vi" Type="VI" URL="../Math/DotProduct.vi"/>
-		<Item Name="Hypotenuse.vi" Type="VI" URL="../Math/Hypotenuse.vi"/>
+		<Item Name="DeltaAngle_Degrees.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Math/DeltaAngle_Degrees.vi"/>
+		<Item Name="DotProduct.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Math/DotProduct.vi"/>
+		<Item Name="Hypotenuse.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Math/Hypotenuse.vi"/>
 		<Item Name="InRangeTolerance.vim" Type="VI" URL="../Math/InRangeTolerance.vim"/>
-		<Item Name="Modulus.vim" Type="VI" URL="../Math/Modulus.vim"/>
+		<Item Name="Modulus.vim" Type="VI" URL="../../../2018-Robot/ArgosLib/Math/Modulus.vim"/>
 		<Item Name="NormalizeToRange.vim" Type="VI" URL="../Math/NormalizeToRange.vim"/>
 		<Item Name="NumToPercent.vi" Type="VI" URL="../Math/NumToPercent.vi"/>
-		<Item Name="PointLineDistance.vi" Type="VI" URL="../Math/PointLineDistance.vi"/>
-		<Item Name="TangentLineAngle.vi" Type="VI" URL="../Math/TangentLineAngle.vi"/>
-		<Item Name="VectorLength.vi" Type="VI" URL="../Math/VectorLength.vi"/>
+		<Item Name="PointLineDistance.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Math/PointLineDistance.vi"/>
+		<Item Name="TangentLineAngle.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Math/TangentLineAngle.vi"/>
+		<Item Name="VectorLength.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Math/VectorLength.vi"/>
 	</Item>
 	<Item Name="Miscellaneous" Type="Folder">
 		<Item Name="Arbitor" Type="Folder">
@@ -102,16 +102,16 @@
 			<Item Name="GenerateNavigationPages.vi" Type="VI" URL="../Miscellaneous/AutoDoc/GenerateNavigationPages.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
-			<Item Name="ArgoDriveJoystickMap.ctl" Type="VI" URL="../Miscellaneous/TypeDefs/ArgoDriveJoystickMap.ctl"/>
-			<Item Name="LookUpTableParameters.ctl" Type="VI" URL="../Miscellaneous/TypeDefs/LookUpTableParameters.ctl"/>
+			<Item Name="ArgoDriveJoystickMap.ctl" Type="VI" URL="../../../2018-Robot/ArgosLib/Miscellaneous/TypeDefs/ArgoDriveJoystickMap.ctl"/>
+			<Item Name="LookUpTableParameters.ctl" Type="VI" URL="../../../2018-Robot/ArgosLib/Miscellaneous/TypeDefs/LookUpTableParameters.ctl"/>
 			<Item Name="MotorLimitPositions_Type.ctl" Type="VI" URL="../Miscellaneous/TypeDefs/MotorLimitPositions_Type.ctl"/>
 			<Item Name="ReachTargetState_Type.ctl" Type="VI" URL="../Miscellaneous/TypeDefs/ReachTargetState_Type.ctl"/>
 		</Item>
 		<Item Name="Assisted Turning.vi" Type="VI" URL="../Miscellaneous/Assisted Turning.vi"/>
 		<Item Name="ChangeTimer.vi" Type="VI" URL="../Miscellaneous/ChangeTimer.vi"/>
 		<Item Name="DBReadStringAsNumber.vi" Type="VI" URL="../Miscellaneous/DBReadStringAsNumber.vi"/>
-		<Item Name="DrawLine.vi" Type="VI" URL="../Miscellaneous/DrawLine.vi"/>
-		<Item Name="Lookup_Table.vi" Type="VI" URL="../Miscellaneous/Lookup_Table.vi"/>
+		<Item Name="DrawLine.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Miscellaneous/DrawLine.vi"/>
+		<Item Name="Lookup_Table.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Miscellaneous/Lookup_Table.vi"/>
 		<Item Name="Motor_Limit.vi" Type="VI" URL="../Miscellaneous/Motor_Limit.vi"/>
 		<Item Name="Reach_Target.vi" Type="VI" URL="../Miscellaneous/Reach_Target.vi"/>
 		<Item Name="time_delta.vi" Type="VI" URL="../Miscellaneous/time_delta.vi"/>
@@ -139,24 +139,24 @@
 	<Item Name="Path Planning" Type="Folder">
 		<Item Name="TestSupport" Type="Folder">
 			<Item Name="DrawCircle.vi" Type="VI" URL="../Path Planning/TestSupport/DrawCircle.vi"/>
-			<Item Name="DrawPolygon2D.vi" Type="VI" URL="../Path Planning/TestSupport/DrawPolygon2D.vi"/>
+			<Item Name="DrawPolygon2D.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Path Planning/TestSupport/DrawPolygon2D.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
-			<Item Name="Point2D.ctl" Type="VI" URL="../Path Planning/TypeDefs/Point2D.ctl"/>
-			<Item Name="Polygon2D.ctl" Type="VI" URL="../Path Planning/TypeDefs/Polygon2D.ctl"/>
+			<Item Name="Point2D.ctl" Type="VI" URL="../../../2018-Robot/ArgosLib/Path Planning/TypeDefs/Point2D.ctl"/>
+			<Item Name="Polygon2D.ctl" Type="VI" URL="../../../2018-Robot/ArgosLib/Path Planning/TypeDefs/Polygon2D.ctl"/>
 		</Item>
-		<Item Name="FindLinePolygonIntersectionFaces.vi" Type="VI" URL="../Path Planning/FindLinePolygonIntersectionFaces.vi"/>
-		<Item Name="GetPolygonPointsBetweenSides.vi" Type="VI" URL="../Path Planning/GetPolygonPointsBetweenSides.vi"/>
-		<Item Name="PathLength.vi" Type="VI" URL="../Path Planning/PathLength.vi"/>
-		<Item Name="PointInPolygon.vi" Type="VI" URL="../Path Planning/PointInPolygon.vi"/>
-		<Item Name="RedistributePathPoints.vi" Type="VI" URL="../Path Planning/RedistributePathPoints.vi"/>
-		<Item Name="RedistributePathPointsVariable.vi" Type="VI" URL="../Path Planning/RedistributePathPointsVariable.vi"/>
-		<Item Name="ReRouteAroundPolygon.vi" Type="VI" URL="../Path Planning/ReRouteAroundPolygon.vi"/>
+		<Item Name="FindLinePolygonIntersectionFaces.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Path Planning/FindLinePolygonIntersectionFaces.vi"/>
+		<Item Name="GetPolygonPointsBetweenSides.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Path Planning/GetPolygonPointsBetweenSides.vi"/>
+		<Item Name="PathLength.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Path Planning/PathLength.vi"/>
+		<Item Name="PointInPolygon.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Path Planning/PointInPolygon.vi"/>
+		<Item Name="RedistributePathPoints.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Path Planning/RedistributePathPoints.vi"/>
+		<Item Name="RedistributePathPointsVariable.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Path Planning/RedistributePathPointsVariable.vi"/>
+		<Item Name="ReRouteAroundPolygon.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Path Planning/ReRouteAroundPolygon.vi"/>
 	</Item>
 	<Item Name="Sensors" Type="Folder">
 		<Item Name="MultiCamera" Type="Folder">
-			<Item Name="SwitchingCameraSendImagesToPCLoop.vi" Type="VI" URL="../Sensors/MultiCamera/SwitchingCameraSendImagesToPCLoop.vi"/>
-			<Item Name="SwitchingHTTPCameraResponder.vi" Type="VI" URL="../Sensors/MultiCamera/SwitchingHTTPCameraResponder.vi"/>
+			<Item Name="SwitchingCameraSendImagesToPCLoop.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Sensors/MultiCamera/SwitchingCameraSendImagesToPCLoop.vi"/>
+			<Item Name="SwitchingHTTPCameraResponder.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Sensors/MultiCamera/SwitchingHTTPCameraResponder.vi"/>
 		</Item>
 		<Item Name="SRXAbsolutePositioning" Type="Folder">
 			<Item Name="SRXCheckReset.vi" Type="VI" URL="../Sensors/SRXAbsolutePositioning/SRXCheckReset.vi"/>
@@ -184,15 +184,15 @@
 			<Item Name="Median Filter.vi" Type="VI" URL="../Signal Processing/Filters/Median Filter.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
-			<Item Name="EdgeDetector_Type.ctl" Type="VI" URL="../Signal Processing/TypeDefs/EdgeDetector_Type.ctl"/>
+			<Item Name="EdgeDetector_Type.ctl" Type="VI" URL="../../../2018-Robot/ArgosLib/Signal Processing/TypeDefs/EdgeDetector_Type.ctl"/>
 		</Item>
 		<Item Name="Debounce.vi" Type="VI" URL="../Signal Processing/Debounce.vi"/>
 		<Item Name="EdgeCounter.vi" Type="VI" URL="../Signal Processing/EdgeCounter.vi"/>
-		<Item Name="EdgeDetector.vi" Type="VI" URL="../Signal Processing/EdgeDetector.vi"/>
-		<Item Name="HistoricMaxMagnitude.vi" Type="VI" URL="../Signal Processing/HistoricMaxMagnitude.vi"/>
-		<Item Name="Latch.vi" Type="VI" URL="../Signal Processing/Latch.vi"/>
-		<Item Name="Rate_Limit.vi" Type="VI" URL="../Signal Processing/Rate_Limit.vi"/>
-		<Item Name="Timed_DeBounce.vi" Type="VI" URL="../Signal Processing/Timed_DeBounce.vi"/>
+		<Item Name="EdgeDetector.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Signal Processing/EdgeDetector.vi"/>
+		<Item Name="HistoricMaxMagnitude.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Signal Processing/HistoricMaxMagnitude.vi"/>
+		<Item Name="Latch.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Signal Processing/Latch.vi"/>
+		<Item Name="Rate_Limit.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Signal Processing/Rate_Limit.vi"/>
+		<Item Name="Timed_DeBounce.vi" Type="VI" URL="../../../2018-Robot/ArgosLib/Signal Processing/Timed_DeBounce.vi"/>
 	</Item>
 	<Item Name="LICENSE" Type="Document" URL="../LICENSE"/>
 </Library>
