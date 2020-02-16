@@ -14,6 +14,7 @@
 				<Item Name="Config_Motor.ctl" Type="VI" URL="../Config/ConfigComponents/TypeDefs/Config_Motor.ctl"/>
 				<Item Name="Config_MotorCtrlType.ctl" Type="VI" URL="../Config/ConfigComponents/TypeDefs/Config_MotorCtrlType.ctl"/>
 				<Item Name="Config_PIDParams.ctl" Type="VI" URL="../Config/ConfigComponents/TypeDefs/Config_PIDParams.ctl"/>
+				<Item Name="Config_PwF_TMD37003.ctl" Type="VI" URL="../Config/ConfigComponents/TypeDefs/Config_PwF_TMD37003.ctl"/>
 				<Item Name="Config_PwFToF.ctl" Type="VI" URL="../Config/ConfigComponents/TypeDefs/Config_PwFToF.ctl"/>
 				<Item Name="Config_SerialPort.ctl" Type="VI" URL="../Config/ConfigComponents/TypeDefs/Config_SerialPort.ctl"/>
 				<Item Name="Config_SingleSolenoid.ctl" Type="VI" URL="../Config/ConfigComponents/TypeDefs/Config_SingleSolenoid.ctl"/>
