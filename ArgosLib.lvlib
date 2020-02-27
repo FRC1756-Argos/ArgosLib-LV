@@ -189,6 +189,7 @@
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="EdgeDetector_Type.ctl" Type="VI" URL="../Signal Processing/TypeDefs/EdgeDetector_Type.ctl"/>
 		</Item>
+		<Item Name="AsymmetricDebounce.vi" Type="VI" URL="../Signal Processing/AsymmetricDebounce.vi"/>
 		<Item Name="Debounce.vi" Type="VI" URL="../Signal Processing/Debounce.vi"/>
 		<Item Name="EdgeCounter.vi" Type="VI" URL="../Signal Processing/EdgeCounter.vi"/>
 		<Item Name="EdgeDetector.vi" Type="VI" URL="../Signal Processing/EdgeDetector.vi"/>
