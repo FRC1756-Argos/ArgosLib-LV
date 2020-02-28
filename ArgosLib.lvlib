@@ -23,9 +23,11 @@
 	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Item Name="TypeDefs" Type="Folder">
+			<Item Name="JSRumbleMode.ctl" Type="VI" URL="../Controls/TypeDefs/JSRumbleMode.ctl"/>
 			<Item Name="XBoxAxes_Type.ctl" Type="VI" URL="../Controls/TypeDefs/XBoxAxes_Type.ctl"/>
 			<Item Name="XBoxButtons_Type.ctl" Type="VI" URL="../Controls/TypeDefs/XBoxButtons_Type.ctl"/>
 		</Item>
+		<Item Name="JoystickRumblePatternControl.vi" Type="VI" URL="../Controls/JoystickRumblePatternControl.vi"/>
 		<Item Name="Swap_Joysticks.vi" Type="VI" URL="../Controls/Swap_Joysticks.vi"/>
 		<Item Name="XBOX_Joystick_Name.vi" Type="VI" URL="../Controls/XBOX_Joystick_Name.vi"/>
 	</Item>
